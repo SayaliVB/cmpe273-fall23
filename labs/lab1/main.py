@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from fastapi.openapi.utils import get_openapi
 
 app = FastAPI()
 
@@ -31,3 +32,18 @@ def get_by_id(item_id:int) -> Item:
     raise HTTPException(
         status_code = 404, detail=f"Item with id {item_id} does not exist!"
     )
+
+def custom_openapi():
+    if app.openapi_schema:
+        return app.openapi_schema
+    openapi_schema = get_openapi(
+        title="Custom Open API",
+        openapi_version  ="3.0.0",
+        version  ="1.0.0",
+        summary="Customising OpenAPI schema for version",
+        routes=app.routes,
+    )
+    app.openapi_schema = openapi_schema
+    return app.openapi_schema
+
+app.openapi = custom_openapi

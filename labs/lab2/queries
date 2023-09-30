@@ -1,0 +1,50 @@
+
+ mutation{
+   deleteItem(id: 775)
+ }
+
+ mutation{
+   updateItem(name: "Grapefruit", id: 745)
+ }
+
+ mutation{
+   createItem(id: 5596, name: "Durian"){
+     id
+     name
+   }
+ }
+
+
+query{
+  fetchItemByID(itemid: 4846){
+    id
+    name
+  }
+}
+
+{
+ items{
+   id
+   name
+ }
+}
+
+query{
+  items{
+    name
+  }
+  fetchItems{
+    id
+  }
+}
+
+{
+ fetchItems{
+   id
+   name
+ }
+}
+
+{
+ hello
+}

@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Volumes/Files/Sayali/SJSU/Sem 1/273 02/labs/cmpe273-fall23/labs/lab2/virtualenv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pygments.cmdline import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

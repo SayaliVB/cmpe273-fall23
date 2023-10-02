@@ -14,6 +14,8 @@ Commands used:
 
 4. Generate python client from OpenAPI Spec
 => pip3 install openapi-python-client
+
+
 **Use _ instead of -**
 => python3 -m openapi_python_client generate --url https://my.api.com/openapi.json
 **Update OpenAPI version in main.py() since error in generating client for the default version**

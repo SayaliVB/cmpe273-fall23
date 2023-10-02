@@ -6,4 +6,4 @@ python3 -m venv virtualenv
 source virtualenv/bin/activate
 pip3 install 'strawberry-graphql[debug-server]'
 
-pip install 'strawberry-graphql[fastapi]'
+pip3 install 'strawberry-graphql[fastapi]'

@@ -8,7 +8,6 @@ Description and usage:
 
 This script connects to a Postgres database and reads the data from a specified table into a specified spreadsheet (by name). It depends on the correct credentials having already been set up and made available in the named files below. All files must be in the same directory.
 
-To call the function in the script, see the example in test_table_to_sheets.py
 
 Files required:
 

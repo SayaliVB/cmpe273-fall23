@@ -1,4 +1,4 @@
-# Implemented ugin pygsheets
+# Implemented using pygsheets
 
 Enable API and create service account, then create keys in service account. download the json as client_secret.json in root folder.
 

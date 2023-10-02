@@ -1,6 +1,5 @@
 # Problem Statement
 
-
 Implementing a mini-reverse ETL application that can copy data from a data warehouse to SaaS applications.
 We will use a Postgres DB as our data warehouse and will have this seed data.
 Create a new Customer database.

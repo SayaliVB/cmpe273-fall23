@@ -1,0 +1,16 @@
+{
+    "postgres":{
+        "_comment1": "dummy data here,",
+        "_comment2": "orignal file at: /Sem 1/273 02/assignments/assignment1/pygsheets",
+        "host":"localhost",
+        "dbname":"customerdb",
+        "user":"",
+        "password":""
+    },
+
+    "gsheets":{
+        "table_name": "customer",
+        "sheet_name": "Test123",
+        "credential_file_name": "client_secret.json"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "postgres":{
+        "host":"customerdb.ciqswuwb51ys.us-east-2.rds.amazonaws.com",
+        "port": 5432,
+        "dbname":"customerdb",
+        "user":"postgres",
+        "password":"postgres"
+    }
+}

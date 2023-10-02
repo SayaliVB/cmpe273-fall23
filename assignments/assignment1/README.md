@@ -1,3 +1,21 @@
+# Implemented using Google OAuth API
+
+Follow: 
+https://developers.google.com/sheets/api/quickstart/python 
+to enable API and create "credentials.json" and save in root folder.
+
+
+Files required:
+
+connection.py - returns the database connection details
+
+main.py
+
+credentials.json – the credentials for accessing your Google Drive API
+
+config.json – holds the database connection details
+
+
 # Problem Statement
 
 Implementing a mini-reverse ETL application that can copy data from a data warehouse to SaaS applications.
@@ -35,9 +53,4 @@ TO
     customer_id | first_name | last_name | email
 
 
-# Implemented using Google OAuth API
-
-Follow: 
-https://developers.google.com/sheets/api/quickstart/python 
-to enable API and create "credentials.json" and save in root folder.
 

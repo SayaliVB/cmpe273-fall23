@@ -4,6 +4,8 @@ Follow:
 https://developers.google.com/sheets/api/quickstart/python 
 to enable API and create "credentials.json" and save in root folder.
 
+To connect to database, modify the config.json for host(endpoint), port, username and password.
+
 
 Files required:
 
@@ -13,7 +15,7 @@ main.py
 
 credentials.json – the credentials for accessing your Google Drive API
 
-config.json – holds the database connection details
+config.json – holds the database connection details. update the database credentials here.
 
 
 # Problem Statement

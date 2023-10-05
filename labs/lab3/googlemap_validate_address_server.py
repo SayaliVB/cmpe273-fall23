@@ -11,7 +11,7 @@ class ValidateAddress(address_validation_service_pb2_grpc.AddressValidationServi
         print("Address Validation request made")
         print(request)
         reply =  address_validation_service_pb2.ValidateAddressResponse()
-        reply.response_id=f"Hello again, {request.address}!" 
+        reply.response_id=f"Address Recieved: {request.address}!" 
         return reply
 
 def serve():

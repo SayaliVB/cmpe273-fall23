@@ -113,6 +113,7 @@ eg:
 
 ```python3 -m grpc_tools.protoc -I protos --python_out=pb2 protos/annotations.proto```
 
+
 ```python3 -m grpc_tools.protoc -I protos --python_out=pb2 protos/client.proto```
 
 
@@ -151,7 +152,11 @@ postalAddress = {"revision" : 0, "region_code":"CH", "language_code":"en", "post
 ```
 
 The address_lines is of type repeated string hence add multiple strings to it.
+
 postalAddress = PostalAddress()
+
 postalAddress.address_lines.append("500 Race Street")
+
 postalAddress.address_lines.append("San Jose")
+
 postalAddress.address_lines.append("California")

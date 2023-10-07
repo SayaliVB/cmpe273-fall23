@@ -112,6 +112,7 @@ generate pb2 for other protos:
 eg:
 
 ```python3 -m grpc_tools.protoc -I protos --python_out=pb2 protos/annotations.proto```
+
 ```python3 -m grpc_tools.protoc -I protos --python_out=pb2 protos/client.proto```
 
 

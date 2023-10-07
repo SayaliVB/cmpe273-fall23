@@ -92,6 +92,8 @@ https://stackoverflow.com/questions/54348065/repeatedscalarfieldcontainer-object
 
 https://lorenzopeppoloni.com/posts/nestedmessagepy/
 
+https://stackoverflow.com/questions/26826421/protocol-buffers-unique-numbered-tag-clarification
+
 
 # For Address validation grpc:
 

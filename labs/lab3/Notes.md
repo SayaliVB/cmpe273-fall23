@@ -41,6 +41,7 @@ Greeter(helloworld_pb2_grpc.GreeterServicer){}:
     
 def serve():
     setup server
+    
     ```futures.ThreadPoolExecutor(max_workers=10) : max number of threads```
     
     ```helloworld_pb2_grpc.add_GreeterServicer_to_server(Greeter(), server) : add defined greeter service to server to direct request```
@@ -78,10 +79,15 @@ Stores all the requests and responses
 
 
 Follow:
+
 https://protobuf.dev/programming-guides/proto2/
+
 https://grpc.io/docs/languages/python/quickstart/
+
 https://www.youtube.com/watch?v=rmhdyk7mazc -> first 5 mins
+
 https://www.youtube.com/watch?v=WB37L7PjI5k
+
 https://stackoverflow.com/questions/54348065/repeatedscalarfieldcontainer-object-has-no-attribute-add
 
 
@@ -104,6 +110,7 @@ Step 3:
 generate pb2 for other protos:
 
 eg:
+
 ```python3 -m grpc_tools.protoc -I protos --python_out=pb2 protos/annotations.proto```
 ```python3 -m grpc_tools.protoc -I protos --python_out=pb2 protos/client.proto```
 

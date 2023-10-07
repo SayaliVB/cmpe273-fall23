@@ -94,6 +94,8 @@ https://lorenzopeppoloni.com/posts/nestedmessagepy/
 
 https://stackoverflow.com/questions/26826421/protocol-buffers-unique-numbered-tag-clarification
 
+https://www.iso.org/obp/ui/#iso:pub:PUB500001:en
+
 
 # For Address validation grpc:
 

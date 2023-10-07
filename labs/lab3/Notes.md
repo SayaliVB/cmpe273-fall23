@@ -90,6 +90,8 @@ https://www.youtube.com/watch?v=WB37L7PjI5k
 
 https://stackoverflow.com/questions/54348065/repeatedscalarfieldcontainer-object-has-no-attribute-add
 
+https://lorenzopeppoloni.com/posts/nestedmessagepy/
+
 
 # For Address validation grpc:
 

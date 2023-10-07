@@ -19,7 +19,9 @@ def run():
         postalAddress.revision = 0
         postalAddress.region_code = "US"
         postalAddress.language_code = "en"
-        postalAddress.postal_code = "95126"
+        postalAddress.postal_code = "9526"
+        postalAddress.sorting_code = "CEDEX 7"
+        postalAddress.locality = "San Jose Downtown"
         #postalAddress = {"revision" : 0, "region_code":"CH", "language_code":"en", "postal_code":"95126","address_lines": "500 Race Street"}
         request = address_validation_service_pb2.ValidateAddressRequest(address=postalAddress, previous_response_id=None, enable_usps_cass=True)
         response = stub.ValidateAddress(request)

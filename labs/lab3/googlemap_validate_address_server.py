@@ -5,13 +5,18 @@ import logging
 import grpc
 import address_validation_service_pb2
 import address_validation_service_pb2_grpc
+from address_validation_service_pb2 import ValidationResult
 
 class ValidateAddress(address_validation_service_pb2_grpc.AddressValidationServicer):
     def ValidateAddress(self, request, context):
         print("Address Validation request made")
         print(request)
+        validationresult = ValidationResult()
+        validationresult.geocode.place_id = request.address.postal_code
         reply =  address_validation_service_pb2.ValidateAddressResponse()
-        reply.response_id=f"Address Recieved: {request.address}!" 
+        reply.response_id=f"Address Recieved: {request.address}!"
+        #reply.result = validationresult
+        #error with above: AttributeError: Assignment not allowed to message, map, or repeated field "result" in protocol message object.
         return reply
 
 def serve():

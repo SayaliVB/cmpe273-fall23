@@ -17,7 +17,7 @@ def run():
         postalAddress.address_lines.append("San Jose")
         postalAddress.address_lines.append("California")
         postalAddress.revision = 0
-        postalAddress.region_code = "CH"
+        postalAddress.region_code = "US"
         postalAddress.language_code = "en"
         postalAddress.postal_code = "95126"
         #postalAddress = {"revision" : 0, "region_code":"CH", "language_code":"en", "postal_code":"95126","address_lines": "500 Race Street"}

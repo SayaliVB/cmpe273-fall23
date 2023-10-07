@@ -119,6 +119,5 @@ hence create dictionary
 postalAddress = {"revision" : 0, "region_code":"CH", "language_code":"en", "postal_code":"95126","address_lines": "500 Race Street"}
 ```
 
-The address_lines is of tyoe repeated string hence add multiple strings to it.
+The address_lines is of type repeated string hence add multiple strings to it.
 
-Step 6

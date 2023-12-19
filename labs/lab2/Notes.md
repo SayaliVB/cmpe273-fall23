@@ -7,3 +7,5 @@ source virtualenv/bin/activate
 pip3 install 'strawberry-graphql[debug-server]'
 
 pip3 install 'strawberry-graphql[fastapi]'
+
+strawberry server main(from main.py)
